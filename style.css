@@ -39,6 +39,7 @@ h2{
 .outer-div input{
   padding: 6px;
   width: 250px;
+  margin-block: 5px;
 }
 
 .edit,.delete{
