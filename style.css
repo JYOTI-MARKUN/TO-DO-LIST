@@ -7,8 +7,8 @@
 
 header{
 background-color: #108e2b;
-height: 20vh;
-line-height: 20vh;
+height: 10vh;
+line-height: 10vh;
 text-align: center;
 }
 
@@ -33,6 +33,7 @@ h2{
     background-color: black;
     color: white;   
     border-radius: 4px;
+    margin-inline:10px
 }
 
 .outer-div input{
@@ -41,20 +42,29 @@ h2{
 }
 
 .edit,.delete{
-    padding: 6px;
+    padding: 7px;
     background-color: green;
     color: white;  
     width: 50px; 
     border-radius: 4px;
+    border: none;
+    margin-inline: 3px;
 }
 .delete{
     background-color: red;
     border: none;
-  padding: 8px;
+  padding: 7px;
+  border: none;
+  margin-inline: 3px;
 }
 
 h3{
     text-align: center;
     margin-bottom: 15px;
     font-size: 25px;
+}
+
+footer{
+    text-align: center;
+    font-size: 10px;
 }
