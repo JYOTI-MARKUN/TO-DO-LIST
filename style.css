@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "roboto";
+}
+
+header{
+background-color: #108e2b;
+height: 20vh;
+line-height: 20vh;
+text-align: center;
+}
+
+section{
+    margin-top: 20px;
+    text-align: center;
+}
+h2{
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.add-item input,.outer-div input{
+    padding: 10px;
+    width: 300px;
+    border: 2px solid rgb(223, 218, 218);
+    border-radius: 4px;
+}
+
+.sub-btn{
+    padding: 10px;
+    background-color: black;
+    color: white;   
+    border-radius: 4px;
+}
+
+.outer-div input{
+  padding: 6px;
+  width: 250px;
+}
+
+.edit,.delete{
+    padding: 6px;
+    background-color: green;
+    color: white;  
+    width: 50px; 
+    border-radius: 4px;
+}
+.delete{
+    background-color: red;
+    border: none;
+  padding: 8px;
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
